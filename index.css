@@ -1,0 +1,77 @@
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    height: 100dvh;
+    background-image: url(/imagenes/fondo-pantalla-abstracto-nebulosa-ultra-detallado-4_1562-749.avif);
+    background-size: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  main {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    max-width: 320px;
+    background-color: rgba(0, 0, 0, 0.651);
+    padding: 16px;
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.356);
+  }
+  img{
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.356);
+    margin: 9%;
+  }
+  h1{
+    margin: 0;
+    font-size: 18px;
+  }
+  h2{
+    margin: 0;
+    color:lightgray;
+    font-size: 16px;
+  }
+  p{
+    margin: 0;
+    font-size: 14px;
+  }
+  ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+  .badge{
+    padding: 4px;
+    border-radius: 8px;
+    background-color: goldenrod;
+    color: black;
+    font-weight: 700;
+    transition:box-shadow 0.25s, filter 0.25s;
+
+    &:hover{
+      box-shadow: 0 2px 4px 0 goldenrod;
+      filter: brightness(1.25);
+    }
+  }
+  .link{
+    color:white;
+    font-weight: 700;
+    transition:box-shadow 0.25s, filter 0.25s;
+
+    &:hover{
+      box-shadow: 0 2px 4px 0 goldenrod;
+      filter: brightness(1.25);
+  }
+  }
