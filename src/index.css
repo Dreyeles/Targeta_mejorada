@@ -317,6 +317,7 @@ section {
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid var(--bg-primary);
+  object-position: center 15%;
 }
 
 @keyframes floatAvatar {
@@ -441,6 +442,7 @@ section {
 .spring-glow { color: #6db33f; border-color: rgba(109, 179, 63, 0.2); }
 .mysql-glow { color: #00758f; border-color: rgba(0, 117, 143, 0.2); }
 .git-glow { color: #f05032; border-color: rgba(240, 80, 50, 0.2); }
+.linux-glow { color: #fcc624; border-color: rgba(252, 198, 36, 0.2); }
 .animation-glow { color: var(--color-accent); border-color: rgba(255, 183, 3, 0.2); }
 
 .skill-card:hover .skill-icon-wrapper.figma-glow { box-shadow: 0 0 20px rgba(242, 78, 30, 0.4); }
@@ -455,6 +457,7 @@ section {
 .skill-card:hover .skill-icon-wrapper.spring-glow { box-shadow: 0 0 20px rgba(109, 179, 63, 0.4); }
 .skill-card:hover .skill-icon-wrapper.mysql-glow { box-shadow: 0 0 20px rgba(0, 117, 143, 0.4); }
 .skill-card:hover .skill-icon-wrapper.git-glow { box-shadow: 0 0 20px rgba(240, 80, 50, 0.4); }
+.skill-card:hover .skill-icon-wrapper.linux-glow { box-shadow: 0 0 20px rgba(252, 198, 36, 0.4); }
 .skill-card:hover .skill-icon-wrapper.animation-glow { box-shadow: 0 0 20px rgba(255, 183, 3, 0.4); }
 
 .skill-card h3 {
@@ -761,7 +764,7 @@ section {
   color: var(--bg-primary);
 }
 
-.facebook-color:hover { background-color: #1877f2; border-color: #1877f2; }
+.bumeran-color:hover { background-color: #ff6b00; border-color: #ff6b00; }
 .youtube-color:hover { background-color: #ff0000; border-color: #ff0000; }
 .github-color:hover { background-color: #ffffff; border-color: #ffffff; color: var(--bg-primary); }
 

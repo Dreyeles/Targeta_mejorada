@@ -147,7 +147,7 @@ function App() {
       <header className="navbar">
         <div className="nav-container">
           <a href="#" className="logo">
-            <span class="logo-accent">&lt;</span>Dreyeles<span class="logo-accent">/&gt;</span>
+            Drey Enmanuel Aymituma Julca<span className="logo-accent">.</span>
           </a>
           <nav className={`nav-menu ${menuActive ? 'active' : ''}`} id="nav-menu">
             <a
@@ -198,7 +198,7 @@ function App() {
 
       <main>
         {/* Hero Section */}
-        <section id="inicio" class="hero section-scroll">
+        <section id="inicio" className="hero section-scroll">
           <div className="hero-container">
             <div className="hero-content">
               <span className="hero-subtitle">¡Hola! Qué gusto tenerte aquí. Soy</span>
@@ -218,14 +218,14 @@ function App() {
             </div>
             <div className="hero-avatar">
               <div className="avatar-wrapper">
-                <img src={`${import.meta.env.BASE_URL}imagenes/drey_ejecutivo.jpg`} alt="Drey Enmanuel" className="avatar-img" />
+                <img src={`${import.meta.env.BASE_URL}imagenes/perfil_drey.png`} alt="Drey Enmanuel" className="avatar-img" />
               </div>
             </div>
           </div>
         </section>
 
         {/* About Me Section */}
-        <section id="sobre-mi" class="about section-scroll">
+        <section id="sobre-mi" className="about section-scroll">
           <h2 className="section-title">Sobre Mí</h2>
           <div className="about-container">
             <div className="about-text">
@@ -259,7 +259,7 @@ function App() {
         </section>
 
         {/* Skills Section */}
-        <section id="habilidades" class="skills section-scroll">
+        <section id="habilidades" className="skills section-scroll">
           <h2 className="section-title">Habilidades</h2>
           <p className="section-subtitle">Las herramientas y tecnologías que utilizo para materializar mis proyectos.</p>
           <div className="skills-grid">
@@ -343,6 +343,14 @@ function App() {
               </div>
               <h3>Git / GitHub</h3>
               <span className="skill-tag">Control de Versiones</span>
+            </div>
+            {/* Skill Card: Linux */}
+            <div className="skill-card">
+              <div className="skill-icon-wrapper linux-glow">
+                <i className="fa-brands fa-linux"></i>
+              </div>
+              <h3>Linux</h3>
+              <span className="skill-tag">Sistema Operativo</span>
             </div>
             {/* Skill Card: Animación Vectorial */}
             <div className="skill-card">
@@ -502,8 +510,8 @@ function App() {
               <div className="social-socials-group">
                 <h4>Mis Redes Sociales</h4>
                 <div className="social-links-grid">
-                  <a href="https://www.facebook.com/Dreyeles" target="_blank" rel="noopener noreferrer" className="social-circle facebook-color" title="Facebook">
-                    <i className="fa-brands fa-facebook-f"></i>
+                  <a href="https://www.bumeran.com.pe/candidatos/curriculum/perfil" target="_blank" rel="noopener noreferrer" className="social-circle bumeran-color" title="Bumeran">
+                    <i className="fa-solid fa-briefcase"></i>
                   </a>
                   <a href="https://www.youtube.com/@dreyaymituma5220" target="_blank" rel="noopener noreferrer" className="social-circle youtube-color" title="YouTube">
                     <i className="fa-brands fa-youtube"></i>
