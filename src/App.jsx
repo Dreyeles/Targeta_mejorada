@@ -218,7 +218,7 @@ function App() {
             </div>
             <div className="hero-avatar">
               <div className="avatar-wrapper">
-                <img src="/imagenes/drey_ejecutivo.jpg" alt="Drey Enmanuel" className="avatar-img" />
+                <img src={`${import.meta.env.BASE_URL}imagenes/drey_ejecutivo.jpg`} alt="Drey Enmanuel" className="avatar-img" />
               </div>
             </div>
           </div>
@@ -364,7 +364,7 @@ function App() {
             {/* Project Card 1 (Neo SISOL) */}
             <article className="project-card">
               <div className="project-image-container">
-                <img src="/imagenes/imagen_sisol_ra.png" alt="Vista previa Neo SISOL" className="project-img" />
+                <img src={`${import.meta.env.BASE_URL}imagenes/imagen_sisol_ra.png`} alt="Vista previa Neo SISOL" className="project-img" />
                 <div className="project-overlay">
                   <span className="project-badge">Destacado</span>
                 </div>
@@ -395,7 +395,7 @@ function App() {
             {/* Project Card 2 (Turba Autotuning) */}
             <article className="project-card">
               <div className="project-image-container">
-                <img src="/imagenes/turbaimain.png" alt="Vista previa Turba Autotuning" className="project-img" />
+                <img src={`${import.meta.env.BASE_URL}imagenes/turbaimain.png`} alt="Vista previa Turba Autotuning" className="project-img" />
                 <div className="project-overlay">
                   <span className="project-badge">Producción</span>
                 </div>
